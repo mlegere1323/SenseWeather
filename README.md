@@ -1,5 +1,4 @@
-
-    # Sense Weather (sWeather) for Raspberry Pi Sense Hat
+# Sense Weather (sWeather) for Raspberry Pi Sense Hat
 
 Author: Michael Legere [https://github.com/mlegere1323]
 Date 1/15/2017
@@ -36,3 +35,4 @@ is a great place to start!
 
 ## How To Use
 
+![Welcome Screen](/images/WelcomeScreen.jpg)
