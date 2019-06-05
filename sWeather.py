@@ -842,7 +842,7 @@ def run_8d_readout(hat, curr_x):
             CAN ADD:
                 -WIND INFO
                 -INFO FOR ANOTHER CITY (copy+paste outdoor hud functionality)
-                -ANYHTING ELSE PYOWM SUPPLIES AS DATA!
+                -ANYTHING ELSE PYOWM SUPPLIES AS DATA!
 
     program_state = 0 #Main menu
     return_to_main_menu(hat, curr_x)
