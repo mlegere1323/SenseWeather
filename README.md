@@ -45,7 +45,7 @@ When the program starts, it will have a "welcome" animation, followed by this we
 
 Following this, you'll only need to use the joystick on the sense hat to use the program. 
 
-Note the top pixel row is the menu, where each colored pixel represents a menu option. You can scroll through the menu by moving the joystick left or right.
+Note the top pixel row is the menu, where each colored pixel represents a menu option. You can scroll through the menu by moving the joystick left or right. Make a selection by pressing in on the joystick.
 
 ## **The Menu Options:**
 ### OH "Outdoor HUD"
@@ -90,5 +90,15 @@ hot = red
 ```python
 temperature_range = (0, 100)
 pressure_range = (950, 1050)
-           humidity_range = (0, 100)
+humidity_range = (0, 100)
 ```
+
+### 3H "3-Hour Forecast"
+![3H Menu](/images/ThreeHourForecastMenu.jpg)
+
+* There will be a text readout forecasting in three hour intervals from now that will scroll across the pixel screen.
+
+### 8D "8-Day Forecast"
+![8D Menu](/images/EightDayForecastMenu.jpg)
+
+* There will be a text readout forecasting the next 8 days from now that will scroll across the pixel screen.
