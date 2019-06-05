@@ -47,8 +47,8 @@ Following this, you'll only need to use the joystick on the sense hat to use the
 
 Note the top pixel row is the menu, where each colored pixel represents a menu option. You can scroll through the menu by moving the joystick left or right.
 
-### **The menu options are:**
-#### OH "Outdoor HUD"
+## **The menu options are:**
+### OH "Outdoor HUD"
 ![Outdoor HUD Menu](/images/OutdoorHUDMenu.jpg)
 
 * **Rows 1 and 2** are the 8-day forecast, as depicted by color representing the general outlook. Each single pixel on the x axis represents a day in these rows, starting with today (the leftmost pixel in the top two rows).
