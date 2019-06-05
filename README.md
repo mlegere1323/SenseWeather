@@ -82,4 +82,13 @@ hot = red
 * **Row 7** is the relative humidity, and is drawn scaled from 0 to 100% as the previous row, with a beige background, but is only colored with three colors (based on general weather science consensus for humidity readings): Low: Light Blue, Ok: Green, High: Red. For details on how this is discerned, please see code.
 * **Row 8** is the current readout for atmospheric pressure, as indicated by the following color scheme: Low: Light Blue, Ok: Green, High: Red. The whole row will be the relevant color indicating if the pressure is low, high, or ok. For details on how this is discerned, please see code.
 
+### IH "Indoor HUD"
+![Indoor HUD Menu](/images/IndoorHUDMenu.jpg)
+![Indoor HUD](/images/IndoorHUD.jpg)
 
+* There will be three bars displayed: a Red, Green, and Blue bar, which represent temperature, pressure, and humidity, respectively, as measured in real time by the on-board sensors in the sense hat. Each bar will remain the same color, but will raise or lower depending on readings by the pi hat, relative to the following ranges:
+```python
+temperature_range = (0, 100)
+pressure_range = (950, 1050)
+           humidity_range = (0, 100)
+```
