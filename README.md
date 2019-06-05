@@ -47,9 +47,10 @@ Following this, you'll only need to use the joystick on the sense hat to use the
 
 Note the top pixel row is the menu, where each colored pixel represents a menu option. You can scroll through the menu by moving the joystick left or right.
 
-## **The menu options are:**
+## **The Menu Options:**
 ### OH "Outdoor HUD"
 ![Outdoor HUD Menu](/images/OutdoorHUDMenu.jpg)
+![Outdoor HUD](/images/OutdoorHUD.jpg)
 
 * **Rows 1 and 2** are the 8-day forecast, as depicted by color representing the general outlook. Each single pixel on the x axis represents a day in these rows, starting with today (the leftmost pixel in the top two rows).
 ```python 
@@ -81,4 +82,4 @@ hot = red
 * **Row 7** is the relative humidity, and is drawn scaled from 0 to 100% as the previous row, with a beige background, but is only colored with three colors (based on general weather science consensus for humidity readings): Low: Light Blue, Ok: Green, High: Red. For details on how this is discerned, please see code.
 * **Row 8** is the current readout for atmospheric pressure, as indicated by the following color scheme: Low: Light Blue, Ok: Green, High: Red. The whole row will be the relevant color indicating if the pressure is low, high, or ok. For details on how this is discerned, please see code.
 
-![Outdoor HUD](/images/OutdoorHUD.jpg)
+
