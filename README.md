@@ -105,3 +105,6 @@ humidity_range = (0, 100)
 ![8D Menu](/images/EightDayForecastMenu.jpg)
 
 * There will be a text readout forecasting the next 8 days from now that will scroll across the pixel screen.
+
+### Blank Menu Options
+* There are some non-functional menu bar pixels as to allow for modification, or extensibility, or new features! Please feel free to add any options you think might be good!
