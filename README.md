@@ -88,8 +88,11 @@ hot = red
 
 * There will be three bars displayed: a Red, Green, and Blue bar, which represent temperature, pressure, and humidity, respectively, as measured in real time by the on-board sensors in the sense hat. Each bar will remain the same color, but will raise or lower depending on readings by the pi hat, relative to the following ranges:
 ```python
+#In degrees F
 temperature_range = (0, 100)
+#In mbar
 pressure_range = (950, 1050)
+#In relative %
 humidity_range = (0, 100)
 ```
 
