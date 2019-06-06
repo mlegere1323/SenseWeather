@@ -50,7 +50,7 @@ Note the top pixel row is the menu, where each colored pixel represents a menu o
 ## **The Menu Options:**
 ### OH "Outdoor HUD"
 ![Outdoor HUD Menu](/images/OutdoorHUDMenu.jpg)
-![Outdoor HUD](/images/OutdoorHUD.jpg)
+![Outdoor HUD Diagram](/images/OutdoorHUDDiagram.jpg)
 
 * **Rows 1 and 2** are the 8-day forecast, as depicted by color representing the general conditions and outlook. Each single pixel column on the x axis represents a day in these rows, starting with today (the leftmost pixel column in the top two rows).
 ```python 
