@@ -52,7 +52,7 @@ Note the top pixel row is the menu, where each colored pixel represents a menu o
 ![Outdoor HUD Menu](/images/OutdoorHUDMenu.jpg)
 ![Outdoor HUD](/images/OutdoorHUD.jpg)
 
-* **Rows 1 and 2** are the 8-day forecast, as depicted by color representing the general outlook. Each single pixel on the x axis represents a day in these rows, starting with today (the leftmost pixel in the top two rows).
+* **Rows 1 and 2** are the 8-day forecast, as depicted by color representing the general conditions and outlook. Each single pixel column on the x axis represents a day in these rows, starting with today (the leftmost pixel column in the top two rows).
 ```python 
 #Forecast color groups RGB values
 thunder = [102,102,0]
