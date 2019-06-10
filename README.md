@@ -37,7 +37,7 @@ is a great place to start!
 
 You will first need a Raspberry Pi with wifi, and a Raspberry Pi SENSE Hat.
 
-This program will need to be run at startup: [Here's how to do that](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/).
+Ideally, this program will be run at startup: [Here's how to do that](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/). You can also run it normally for testing purposes.
 
 When the program starts, it will have a "welcome" animation, followed by this welcome screen with a sun, clouds, and field (as below--please forgive the image quality, as the LED lights were hard to capture well, so I put paper over them so it didn't look like white light all over).
 
